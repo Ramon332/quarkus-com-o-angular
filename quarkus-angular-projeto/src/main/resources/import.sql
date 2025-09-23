@@ -5,7 +5,7 @@ insert into Usuario(nome, email) values ('Ramon', 'ramon@gmail.com');
 insert into Usuario(nome, email) values ('Marcelo', 'marcelo@gmail.com');
 insert into Usuario(nome, email) values ('Felipe', 'felipe@gmail.com');
 insert into Usuario(nome, email) values ('Flavio', 'flavio@gmail.com');
-insert into Usuario(nome, email) values ('Luis Gustavo', 'lugostavo@gmail.com');
+insert into Usuario(nome, email) values ('Luiz Gustavo', 'lugostavo@gmail.com');
 
 // tabela Conversa titulo e usuario_codigo
 insert into Conversa(titulo, usuario_codigo) values ('Titulo de livros mais famosos', 1);
