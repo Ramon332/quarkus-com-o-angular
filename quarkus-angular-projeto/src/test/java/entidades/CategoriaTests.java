@@ -16,7 +16,17 @@ public class CategoriaTests {
        anexo.nomeArquivo = "vendas.csv";
        anexo.persist();
 
+       Conversa conversa = new Conversa();
+       conversa.titulo = "Olá, tudo bem?";
+       conversa.persist();
+
+       Usuario usuario = new Usuario();
+       usuario.nome = "João";
+       usuario.persist();
+
        Assertions.assertEquals(anexo.codigo, 8);
+       Assertions.assertEquals(conversa.codigo, 8);
+       Assertions.assertEquals(usuario.codigo, 8);
    }
 }
 
